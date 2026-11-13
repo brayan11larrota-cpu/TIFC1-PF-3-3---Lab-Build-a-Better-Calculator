@@ -16,16 +16,16 @@ def isitaninteger(num: int) -> bool:
     return isinstance(num , int)
 
 def main():
-    numeros = [5, 10, 15, 20]
+    numeros = [1, 2, 1, 2]
     resultado = addmultiplenumbers(numeros)
     print(resultado)
 
     resultado = multiplymultiplenumbers(numeros)
     print(resultado)
 
-    print(isiteven(2))
+    print(isiteven(3))
 
-    print(isinstance(6.5, float))
+    print(isinstance(6.5, int))
 
 
 if __name__=="__main__":
